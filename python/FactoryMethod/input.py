@@ -8,12 +8,12 @@ class Input:
 
 class FileInput(Input):
     def read(self):
-        print("Read contents from file.");
+        print("Read contents from file.")
 
 class ConsoleInput(Input):
     def read(self):
-        print("Read contents from console.");
+        print("Read contents from console.")
 
 class NetInput(Input):
     def read(self):
-        print("Read contents from net.");
+        print("Read contents from net.")
