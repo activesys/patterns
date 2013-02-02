@@ -21,6 +21,7 @@ public:
 };
 
 class ConsoleIOFactory : public IOFactory {
+public:
     virtual ConsoleInput* create_input() {
         return new ConsoleInput();
     }
@@ -30,6 +31,7 @@ class ConsoleIOFactory : public IOFactory {
 };
 
 class NetIOFactory : public IOFactory {
+public:
     virtual NetInput* create_input() {
         return new NetInput();
     }

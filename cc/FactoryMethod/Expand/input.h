@@ -23,6 +23,7 @@ public:
 };
 
 class NetInput : public Input {
+public:
     virtual void read() {
         std::cout << "Read contents from net." << std::endl;
     }

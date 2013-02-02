@@ -16,12 +16,14 @@ public:
 };
 
 class ConsoleOutput : public Output {
+public:
     virtual void write() {
         std::cout << "Write contents to console." << std::endl;
     }
 };
 
 class NetOutput : public Output {
+public:
     virtual void write() {
         std::cout << "Wrtie contents to net." << std::endl;
     }
